@@ -251,6 +251,11 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "timestamp": {
+          "builder": "./builders/timestamp:file",
+          "options": {
+          }
         }
       }
     },

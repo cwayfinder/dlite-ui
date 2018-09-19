@@ -1,0 +1,21 @@
+{
+  "name": "timestamp-builder",
+  "version": "1.0.0",
+  "description": "",
+  "builders": "builders.json",
+  "scripts": {
+    "build": "../../node_modules/.bin/tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.8.2",
+    "@angular-devkit/core": "^0.8.2",
+    "@types/dateformat": "^1.0.1",
+    "@types/node": "^10.10.1",
+    "typescript": "^3.0.3"
+  }
+}
